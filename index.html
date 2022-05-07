@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Slide Games</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+            <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+            <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+            <div class="slide-list" data-slide="list">
+                <div class="slide-item" data-slide="item" data-index="0">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/assassinscreed.png" alt="Assassin's Creed" />
+                        <div class="slide-description">
+                            <h3>Assassin's Creed</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="1">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/fortnite.png" alt="Fortnite" />
+                        <div class="slide-description">
+                            <h3>Fortnite</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="2">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/freefire.png" alt="Freefire" />
+                        <div class="slide-description">
+                            <h3>Freefire</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="3">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/gta-v.png" alt="GTA V" />
+                        <div class="slide-description">
+                            <h3>GTA V</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="4">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/halo5.png" alt="Halo 5" />
+                        <div class="slide-description">
+                            <h3>Halo 5</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="5">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/league-of-legends.png" alt="League of Legends" />
+                        <div class="slide-description">
+                            <h3>League of Legends</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="6">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/red-dead-redemption-2.png" alt="Red Dead Redemption 2" />
+                        <div class="slide-description">
+                            <h3>Red Dead Redemption 2</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-item" data-slide="item" data-index="7">
+                    <div class="slide-content">
+                        <img class="slide-image" src="./assets/imgs/zelda.png" alt="Zelda" />
+                        <div class="slide-description">
+                            <h3>Zelda</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-controls" data-slide="controls-wrapper">
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/slides.js"></script>
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 2000
+        })
+    </script>
+</body>
+</html>
